@@ -1,0 +1,39 @@
+.main h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#547cb5;
+    font-size: 30px;
+}
+
+.main h3 {
+    text-align: center;
+    font-size: 40px;
+    left: 50px;
+    line-height: 1.8;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 2;
+}
+
+.main p a {
+    text-decoration: none;
+    color: #547cb5;
+    font-size: 30px;
+}
+
+.main p {
+    align-items: center;
+    text-align: center;
+    line-height: 3;
+}
+
+@media only screen and (max-width: 650px){
+
+    .main p{
+        line-height: 1.9;
+    }
+}
+
